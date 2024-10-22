@@ -1,0 +1,9 @@
+[ 2024-10-22 15:56:55,904 ] 33 src.logger.custom_logging - INFO - Dir created artifacts
+[ 2024-10-22 15:56:55,904 ] 33 src.logger.custom_logging - INFO - Dir created artifacts/data_validation
+[ 2024-10-22 15:57:49,677 ] 33 src.logger.custom_logging - INFO - Dir created artifacts
+[ 2024-10-22 15:57:49,677 ] 33 src.logger.custom_logging - INFO - Dir created artifacts/data_validation
+[ 2024-10-22 15:59:00,464 ] 33 src.logger.custom_logging - INFO - Dir created artifacts
+[ 2024-10-22 15:59:00,464 ] 33 src.logger.custom_logging - INFO - Dir created artifacts/data_transformation
+[ 2024-10-22 15:59:00,527 ] 44 src.logger.custom_logging - INFO - Data split into training and test sets
+[ 2024-10-22 15:59:00,527 ] 45 src.logger.custom_logging - INFO - Train shape: (1199, 12)
+[ 2024-10-22 15:59:00,527 ] 46 src.logger.custom_logging - INFO - Test shape: (400, 12)
