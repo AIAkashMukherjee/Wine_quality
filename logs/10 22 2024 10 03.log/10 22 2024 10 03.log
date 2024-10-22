@@ -1,0 +1,42 @@
+[ 2024-10-22 10:03:34,461 ] 9 src.logger.custom_logging - INFO - >>>>>> stage Data Ingestion stage started <<<<<<
+[ 2024-10-22 10:03:34,463 ] 33 src.logger.custom_logging - INFO - Dir created artifacts
+[ 2024-10-22 10:03:34,463 ] 33 src.logger.custom_logging - INFO - Dir created artifacts/data_ingestion
+[ 2024-10-22 10:03:36,057 ] 29 src.logger.custom_logging - INFO - artifacts/data_ingestion/data.zip downloaded successfully!
+[ 2024-10-22 10:03:36,060 ] 12 src.logger.custom_logging - INFO - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[ 2024-10-22 10:03:40,563 ] 9 src.logger.custom_logging - INFO - >>>>>> stage Data Ingestion stage started <<<<<<
+[ 2024-10-22 10:03:40,564 ] 33 src.logger.custom_logging - INFO - Dir created artifacts
+[ 2024-10-22 10:03:40,564 ] 33 src.logger.custom_logging - INFO - Dir created artifacts/data_ingestion
+[ 2024-10-22 10:03:40,565 ] 31 src.logger.custom_logging - INFO - File already exists with size: ~ 23 KB
+[ 2024-10-22 10:03:40,566 ] 12 src.logger.custom_logging - INFO - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[ 2024-10-22 10:03:41,530 ] 9 src.logger.custom_logging - INFO - >>>>>> stage Data Ingestion stage started <<<<<<
+[ 2024-10-22 10:03:41,531 ] 33 src.logger.custom_logging - INFO - Dir created artifacts
+[ 2024-10-22 10:03:41,531 ] 33 src.logger.custom_logging - INFO - Dir created artifacts/data_ingestion
+[ 2024-10-22 10:03:41,532 ] 31 src.logger.custom_logging - INFO - File already exists with size: ~ 23 KB
+[ 2024-10-22 10:03:41,533 ] 12 src.logger.custom_logging - INFO - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[ 2024-10-22 10:03:41,908 ] 9 src.logger.custom_logging - INFO - >>>>>> stage Data Ingestion stage started <<<<<<
+[ 2024-10-22 10:03:41,909 ] 33 src.logger.custom_logging - INFO - Dir created artifacts
+[ 2024-10-22 10:03:41,909 ] 33 src.logger.custom_logging - INFO - Dir created artifacts/data_ingestion
+[ 2024-10-22 10:03:41,910 ] 31 src.logger.custom_logging - INFO - File already exists with size: ~ 23 KB
+[ 2024-10-22 10:03:41,911 ] 12 src.logger.custom_logging - INFO - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[ 2024-10-22 10:03:42,167 ] 9 src.logger.custom_logging - INFO - >>>>>> stage Data Ingestion stage started <<<<<<
+[ 2024-10-22 10:03:42,168 ] 33 src.logger.custom_logging - INFO - Dir created artifacts
+[ 2024-10-22 10:03:42,168 ] 33 src.logger.custom_logging - INFO - Dir created artifacts/data_ingestion
+[ 2024-10-22 10:03:42,169 ] 31 src.logger.custom_logging - INFO - File already exists with size: ~ 23 KB
+[ 2024-10-22 10:03:42,169 ] 12 src.logger.custom_logging - INFO - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[ 2024-10-22 10:03:42,356 ] 9 src.logger.custom_logging - INFO - >>>>>> stage Data Ingestion stage started <<<<<<
+[ 2024-10-22 10:03:42,357 ] 33 src.logger.custom_logging - INFO - Dir created artifacts
+[ 2024-10-22 10:03:42,357 ] 33 src.logger.custom_logging - INFO - Dir created artifacts/data_ingestion
+[ 2024-10-22 10:03:42,358 ] 31 src.logger.custom_logging - INFO - File already exists with size: ~ 23 KB
+[ 2024-10-22 10:03:42,359 ] 12 src.logger.custom_logging - INFO - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x

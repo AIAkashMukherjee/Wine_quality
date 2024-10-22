@@ -5,8 +5,6 @@ import logging
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
 
-
-
 list_of_files = [
     ".github/workflows/.gitkeep",
     "src/__init__.py",
@@ -41,7 +39,6 @@ list_of_files = [
     "templates/index.html",
     "test.py"
 ]
-
 
 
 

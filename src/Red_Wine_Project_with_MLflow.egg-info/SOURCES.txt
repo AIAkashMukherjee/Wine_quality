@@ -1,8 +1,8 @@
 setup.py
-src/End_to_end_ML_Project_with_MLflow.egg-info/PKG-INFO
-src/End_to_end_ML_Project_with_MLflow.egg-info/SOURCES.txt
-src/End_to_end_ML_Project_with_MLflow.egg-info/dependency_links.txt
-src/End_to_end_ML_Project_with_MLflow.egg-info/top_level.txt
+src/Red_Wine_Project_with_MLflow.egg-info/PKG-INFO
+src/Red_Wine_Project_with_MLflow.egg-info/SOURCES.txt
+src/Red_Wine_Project_with_MLflow.egg-info/dependency_links.txt
+src/Red_Wine_Project_with_MLflow.egg-info/top_level.txt
 src/components/__init__.py
 src/components/data_ingestion.py
 src/components/data_transformation.py
