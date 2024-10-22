@@ -1,0 +1,3 @@
+[ 2024-10-22 11:53:31,252 ] 33 src.logger.custom_logging - INFO - Dir created artifacts
+[ 2024-10-22 11:53:31,252 ] 33 src.logger.custom_logging - INFO - Dir created artifacts/data_ingestion
+[ 2024-10-22 11:53:31,253 ] 18 src.logger.custom_logging - INFO - File already exists with size: ~ 23 KB
