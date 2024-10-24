@@ -1,0 +1,28 @@
+[ 2024-10-24 10:05:45,644 ] 10 src.logger.custom_logging - INFO - >>>>>> stage Data Ingestion stage started <<<<<<
+[ 2024-10-24 10:05:45,647 ] 33 src.logger.custom_logging - INFO - Dir created artifacts
+[ 2024-10-24 10:05:45,647 ] 33 src.logger.custom_logging - INFO - Dir created artifacts/data_ingestion
+[ 2024-10-24 10:05:46,537 ] 29 src.logger.custom_logging - INFO - artifacts/data_ingestion/data.zip downloaded successfully!
+[ 2024-10-24 10:05:46,539 ] 13 src.logger.custom_logging - INFO - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[ 2024-10-24 10:05:46,539 ] 21 src.logger.custom_logging - INFO - >>>>>> stage Data Validation stage started <<<<<<
+[ 2024-10-24 10:05:46,542 ] 33 src.logger.custom_logging - INFO - Dir created artifacts
+[ 2024-10-24 10:05:46,543 ] 33 src.logger.custom_logging - INFO - Dir created artifacts/data_validation
+[ 2024-10-24 10:05:46,547 ] 24 src.logger.custom_logging - INFO - >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x
+[ 2024-10-24 10:05:46,547 ] 32 src.logger.custom_logging - INFO - >>>>>> stage Data Transformation stage started <<<<<<
+[ 2024-10-24 10:05:46,550 ] 33 src.logger.custom_logging - INFO - Dir created artifacts
+[ 2024-10-24 10:05:46,550 ] 33 src.logger.custom_logging - INFO - Dir created artifacts/data_transformation
+[ 2024-10-24 10:05:46,578 ] 51 src.logger.custom_logging - INFO - Data split into training and test sets
+[ 2024-10-24 10:05:46,578 ] 52 src.logger.custom_logging - INFO - Train shape: (1199, 12)
+[ 2024-10-24 10:05:46,578 ] 53 src.logger.custom_logging - INFO - Test shape: (400, 12)
+[ 2024-10-24 10:05:46,578 ] 35 src.logger.custom_logging - INFO - >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x
+[ 2024-10-24 10:05:46,578 ] 44 src.logger.custom_logging - INFO - >>>>>> stage Model Trainer stage started <<<<<<
+[ 2024-10-24 10:05:46,580 ] 33 src.logger.custom_logging - INFO - Dir created artifacts
+[ 2024-10-24 10:05:46,580 ] 33 src.logger.custom_logging - INFO - Dir created artifacts/model_trainer
+[ 2024-10-24 10:05:47,025 ] 47 src.logger.custom_logging - INFO - >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x

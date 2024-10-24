@@ -1,6 +1,6 @@
 from src.utils.utlis import read_yaml,create_dir
 from src.constants import *
-from src.entity.config_entity import DataIngestionConfig,DataValidationConfig,DataTransformationConfig
+from src.entity.config_entity import DataIngestionConfig,DataValidationConfig,DataTransformationConfig,ModelTrainerConfig
 
 class ConfigManager:
     def __init__(self,
@@ -57,3 +57,28 @@ class ConfigManager:
         
 
         return data_transformation_config
+    
+
+    def model_trainer_config(self) -> ModelTrainerConfig:
+        config = self.config.model_trainer
+        params = self.params.RandomForestClassifier
+        schema =  self.schema.TARGET_COLUMN
+
+        create_dir([config.root_dir])
+
+        model_trainer_config = ModelTrainerConfig(
+            root_dir=config.root_dir,
+            train_data_path=config.train_data_path,
+            test_data_path=config.test_data_path,
+            model_name=config.model_name,
+            n_estimators= params.n_estimators,
+            min_samples_split= params.min_samples_split,
+            min_samples_leaf= params.min_samples_leaf,
+            max_features= params.max_features,
+            max_depth= params.max_depth,
+            target_column= schema.name
+            
+        )
+        
+
+        return model_trainer_config
