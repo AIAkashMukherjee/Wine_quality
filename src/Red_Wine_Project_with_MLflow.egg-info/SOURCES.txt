@@ -6,6 +6,7 @@ src/Red_Wine_Project_with_MLflow.egg-info/top_level.txt
 src/components/__init__.py
 src/components/data_ingestion.py
 src/components/data_transformation.py
+src/components/data_validation.py
 src/components/model_evalutaion.py
 src/components/model_trainer.py
 src/config/__init__.py
@@ -18,6 +19,11 @@ src/exceptions/expection.py
 src/logger/__init__.py
 src/logger/custom_logging.py
 src/pipeline/__init__.py
-src/pipeline/training_pipeline.py
+src/pipeline/data_ingestion_pipe.py
+src/pipeline/data_transformation_pipe.py
+src/pipeline/data_validation_pipe.py
+src/pipeline/mode_Eval_pipe.py
+src/pipeline/model_trainer_pipe.py
+src/pipeline/prediction_pipe.py
 src/utils/__init__.py
 src/utils/utlis.py
