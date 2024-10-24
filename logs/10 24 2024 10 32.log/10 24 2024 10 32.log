@@ -1,0 +1,35 @@
+[ 2024-10-24 10:32:14,308 ] 10 src.logger.custom_logging - INFO - >>>>>> stage Data Ingestion stage started <<<<<<
+[ 2024-10-24 10:32:14,310 ] 33 src.logger.custom_logging - INFO - Dir created artifacts
+[ 2024-10-24 10:32:14,310 ] 33 src.logger.custom_logging - INFO - Dir created artifacts/data_ingestion
+[ 2024-10-24 10:32:14,311 ] 31 src.logger.custom_logging - INFO - File already exists with size: ~ 23 KB
+[ 2024-10-24 10:32:14,312 ] 13 src.logger.custom_logging - INFO - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[ 2024-10-24 10:32:14,312 ] 21 src.logger.custom_logging - INFO - >>>>>> stage Data Validation stage started <<<<<<
+[ 2024-10-24 10:32:14,314 ] 33 src.logger.custom_logging - INFO - Dir created artifacts
+[ 2024-10-24 10:32:14,314 ] 33 src.logger.custom_logging - INFO - Dir created artifacts/data_validation
+[ 2024-10-24 10:32:14,316 ] 24 src.logger.custom_logging - INFO - >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x
+[ 2024-10-24 10:32:14,316 ] 32 src.logger.custom_logging - INFO - >>>>>> stage Data Transformation stage started <<<<<<
+[ 2024-10-24 10:32:14,319 ] 33 src.logger.custom_logging - INFO - Dir created artifacts
+[ 2024-10-24 10:32:14,319 ] 33 src.logger.custom_logging - INFO - Dir created artifacts/data_transformation
+[ 2024-10-24 10:32:14,340 ] 51 src.logger.custom_logging - INFO - Data split into training and test sets
+[ 2024-10-24 10:32:14,340 ] 52 src.logger.custom_logging - INFO - Train shape: (1199, 12)
+[ 2024-10-24 10:32:14,340 ] 53 src.logger.custom_logging - INFO - Test shape: (400, 12)
+[ 2024-10-24 10:32:14,341 ] 35 src.logger.custom_logging - INFO - >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x
+[ 2024-10-24 10:32:14,341 ] 44 src.logger.custom_logging - INFO - >>>>>> stage Model Trainer stage started <<<<<<
+[ 2024-10-24 10:32:14,342 ] 33 src.logger.custom_logging - INFO - Dir created artifacts
+[ 2024-10-24 10:32:14,343 ] 33 src.logger.custom_logging - INFO - Dir created artifacts/model_trainer
+[ 2024-10-24 10:32:14,829 ] 47 src.logger.custom_logging - INFO - >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x
+[ 2024-10-24 10:32:14,829 ] 55 src.logger.custom_logging - INFO - >>>>>> stage Model Evaluation stage started <<<<<<
+[ 2024-10-24 10:32:14,831 ] 33 src.logger.custom_logging - INFO - Dir created artifacts
+[ 2024-10-24 10:32:14,831 ] 33 src.logger.custom_logging - INFO - Dir created artifacts/model_evaluation
+[ 2024-10-24 10:32:14,883 ] 47 src.logger.custom_logging - INFO - json file saved at: artifacts/model_evaluation/metrics.json
+[ 2024-10-24 10:32:14,884 ] 58 src.logger.custom_logging - INFO - >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x

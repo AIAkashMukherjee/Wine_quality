@@ -1,6 +1,6 @@
 from src.utils.utlis import read_yaml,create_dir
 from src.constants import *
-from src.entity.config_entity import DataIngestionConfig,DataValidationConfig,DataTransformationConfig,ModelTrainerConfig
+from src.entity.config_entity import DataIngestionConfig,DataValidationConfig,DataTransformationConfig,ModelTrainerConfig,ModelEvaluationConfig
 
 class ConfigManager:
     def __init__(self,
@@ -82,3 +82,19 @@ class ConfigManager:
         
 
         return model_trainer_config
+    
+    def model_evluation_config(self) -> ModelEvaluationConfig:
+        config = self.config.model_evaluation
+        schema =  self.schema.TARGET_COLUMN
+
+        create_dir([config.root_dir]) 
+
+        model_Eval_Config=ModelEvaluationConfig(
+            root_dir=config.root_dir,
+            test_data_path=config.test_data_path,
+            model_path=config.model_path,
+            metric_file_name=config.metric_file_name,
+            target_column=schema.name
+        )   
+
+        return model_Eval_Config
